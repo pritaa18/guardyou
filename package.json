@@ -2,9 +2,9 @@
     "$schema": "https://www.schemastore.org/package.json",
     "private": true,
     "type": "module",
-    "scripts": {
-        "dev": "node index.js",
-        "start": "node index.js"
+   "scripts": {
+        "build": "vite build",
+        "dev": "vite"
     },
     "devDependencies": {
         "@tailwindcss/forms": "^0.5.2",
